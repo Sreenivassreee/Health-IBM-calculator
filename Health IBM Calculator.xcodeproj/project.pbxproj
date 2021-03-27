@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F45F83D5260F259000848874 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F83D4260F259000848874 /* AppDelegate.swift */; };
+		F45F83D7260F259000848874 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F83D6260F259000848874 /* SceneDelegate.swift */; };
+		F45F83D9260F259000848874 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F83D8260F259000848874 /* ViewController.swift */; };
+		F45F83DC260F259000848874 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45F83DA260F259000848874 /* Main.storyboard */; };
+		F45F83DE260F259200848874 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F45F83DD260F259200848874 /* Assets.xcassets */; };
+		F45F83E1260F259200848874 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45F83DF260F259200848874 /* LaunchScreen.storyboard */; };
+		F45F83EC260F259200848874 /* Health_IBM_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F83EB260F259200848874 /* Health_IBM_CalculatorTests.swift */; };
+		F45F83F7260F259200848874 /* Health_IBM_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F83F6260F259200848874 /* Health_IBM_CalculatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F45F83E8260F259200848874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F45F83C9260F259000848874 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45F83D0260F259000848874;
+			remoteInfo = "Health IBM Calculator";
+		};
+		F45F83F3260F259200848874 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F45F83C9260F259000848874 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F45F83D0260F259000848874;
+			remoteInfo = "Health IBM Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F45F83D1260F259000848874 /* Health IBM Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health IBM Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45F83D4260F259000848874 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F45F83D6260F259000848874 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F45F83D8260F259000848874 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F45F83DB260F259000848874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F45F83DD260F259200848874 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F45F83E0260F259200848874 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F45F83E2260F259200848874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45F83E7260F259200848874 /* Health IBM CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Health IBM CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45F83EB260F259200848874 /* Health_IBM_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health_IBM_CalculatorTests.swift; sourceTree = "<group>"; };
+		F45F83ED260F259200848874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F45F83F2260F259200848874 /* Health IBM CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Health IBM CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F45F83F6260F259200848874 /* Health_IBM_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health_IBM_CalculatorUITests.swift; sourceTree = "<group>"; };
+		F45F83F8260F259200848874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F45F83CE260F259000848874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45F83E4260F259200848874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45F83EF260F259200848874 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F45F83C8260F259000848874 = {
+			isa = PBXGroup;
+			children = (
+				F45F83D3260F259000848874 /* Health IBM Calculator */,
+				F45F83EA260F259200848874 /* Health IBM CalculatorTests */,
+				F45F83F5260F259200848874 /* Health IBM CalculatorUITests */,
+				F45F83D2260F259000848874 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F45F83D2260F259000848874 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F45F83D1260F259000848874 /* Health IBM Calculator.app */,
+				F45F83E7260F259200848874 /* Health IBM CalculatorTests.xctest */,
+				F45F83F2260F259200848874 /* Health IBM CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F45F83D3260F259000848874 /* Health IBM Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				F45F83D4260F259000848874 /* AppDelegate.swift */,
+				F45F83D6260F259000848874 /* SceneDelegate.swift */,
+				F45F83D8260F259000848874 /* ViewController.swift */,
+				F45F83DA260F259000848874 /* Main.storyboard */,
+				F45F83DD260F259200848874 /* Assets.xcassets */,
+				F45F83DF260F259200848874 /* LaunchScreen.storyboard */,
+				F45F83E2260F259200848874 /* Info.plist */,
+			);
+			path = "Health IBM Calculator";
+			sourceTree = "<group>";
+		};
+		F45F83EA260F259200848874 /* Health IBM CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F45F83EB260F259200848874 /* Health_IBM_CalculatorTests.swift */,
+				F45F83ED260F259200848874 /* Info.plist */,
+			);
+			path = "Health IBM CalculatorTests";
+			sourceTree = "<group>";
+		};
+		F45F83F5260F259200848874 /* Health IBM CalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F45F83F6260F259200848874 /* Health_IBM_CalculatorUITests.swift */,
+				F45F83F8260F259200848874 /* Info.plist */,
+			);
+			path = "Health IBM CalculatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F45F83D0260F259000848874 /* Health IBM Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45F83FB260F259200848874 /* Build configuration list for PBXNativeTarget "Health IBM Calculator" */;
+			buildPhases = (
+				F45F83CD260F259000848874 /* Sources */,
+				F45F83CE260F259000848874 /* Frameworks */,
+				F45F83CF260F259000848874 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Health IBM Calculator";
+			productName = "Health IBM Calculator";
+			productReference = F45F83D1260F259000848874 /* Health IBM Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F45F83E6260F259200848874 /* Health IBM CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45F83FE260F259200848874 /* Build configuration list for PBXNativeTarget "Health IBM CalculatorTests" */;
+			buildPhases = (
+				F45F83E3260F259200848874 /* Sources */,
+				F45F83E4260F259200848874 /* Frameworks */,
+				F45F83E5260F259200848874 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F45F83E9260F259200848874 /* PBXTargetDependency */,
+			);
+			name = "Health IBM CalculatorTests";
+			productName = "Health IBM CalculatorTests";
+			productReference = F45F83E7260F259200848874 /* Health IBM CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F45F83F1260F259200848874 /* Health IBM CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F45F8401260F259200848874 /* Build configuration list for PBXNativeTarget "Health IBM CalculatorUITests" */;
+			buildPhases = (
+				F45F83EE260F259200848874 /* Sources */,
+				F45F83EF260F259200848874 /* Frameworks */,
+				F45F83F0260F259200848874 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F45F83F4260F259200848874 /* PBXTargetDependency */,
+			);
+			name = "Health IBM CalculatorUITests";
+			productName = "Health IBM CalculatorUITests";
+			productReference = F45F83F2260F259200848874 /* Health IBM CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F45F83C9260F259000848874 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F45F83D0260F259000848874 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F45F83E6260F259200848874 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F45F83D0260F259000848874;
+					};
+					F45F83F1260F259200848874 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F45F83D0260F259000848874;
+					};
+				};
+			};
+			buildConfigurationList = F45F83CC260F259000848874 /* Build configuration list for PBXProject "Health IBM Calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F45F83C8260F259000848874;
+			productRefGroup = F45F83D2260F259000848874 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F45F83D0260F259000848874 /* Health IBM Calculator */,
+				F45F83E6260F259200848874 /* Health IBM CalculatorTests */,
+				F45F83F1260F259200848874 /* Health IBM CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F45F83CF260F259000848874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45F83E1260F259200848874 /* LaunchScreen.storyboard in Resources */,
+				F45F83DE260F259200848874 /* Assets.xcassets in Resources */,
+				F45F83DC260F259000848874 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45F83E5260F259200848874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45F83F0260F259200848874 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F45F83CD260F259000848874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45F83D9260F259000848874 /* ViewController.swift in Sources */,
+				F45F83D5260F259000848874 /* AppDelegate.swift in Sources */,
+				F45F83D7260F259000848874 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45F83E3260F259200848874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45F83EC260F259200848874 /* Health_IBM_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F45F83EE260F259200848874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45F83F7260F259200848874 /* Health_IBM_CalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F45F83E9260F259200848874 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45F83D0260F259000848874 /* Health IBM Calculator */;
+			targetProxy = F45F83E8260F259200848874 /* PBXContainerItemProxy */;
+		};
+		F45F83F4260F259200848874 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F45F83D0260F259000848874 /* Health IBM Calculator */;
+			targetProxy = F45F83F3260F259200848874 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F45F83DA260F259000848874 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F45F83DB260F259000848874 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F45F83DF260F259200848874 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F45F83E0260F259200848874 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F45F83F9260F259200848874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F45F83FA260F259200848874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F45F83FC260F259200848874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2N5BZXFW99;
+				INFOPLIST_FILE = "Health IBM Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stevebrains.Health-IBM-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F45F83FD260F259200848874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2N5BZXFW99;
+				INFOPLIST_FILE = "Health IBM Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stevebrains.Health-IBM-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F45F83FF260F259200848874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2N5BZXFW99;
+				INFOPLIST_FILE = "Health IBM CalculatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stevebrains.Health-IBM-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Health IBM Calculator.app/Health IBM Calculator";
+			};
+			name = Debug;
+		};
+		F45F8400260F259200848874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2N5BZXFW99;
+				INFOPLIST_FILE = "Health IBM CalculatorTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stevebrains.Health-IBM-CalculatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Health IBM Calculator.app/Health IBM Calculator";
+			};
+			name = Release;
+		};
+		F45F8402260F259200848874 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2N5BZXFW99;
+				INFOPLIST_FILE = "Health IBM CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stevebrains.Health-IBM-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Health IBM Calculator";
+			};
+			name = Debug;
+		};
+		F45F8403260F259200848874 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2N5BZXFW99;
+				INFOPLIST_FILE = "Health IBM CalculatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stevebrains.Health-IBM-CalculatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Health IBM Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F45F83CC260F259000848874 /* Build configuration list for PBXProject "Health IBM Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45F83F9260F259200848874 /* Debug */,
+				F45F83FA260F259200848874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45F83FB260F259200848874 /* Build configuration list for PBXNativeTarget "Health IBM Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45F83FC260F259200848874 /* Debug */,
+				F45F83FD260F259200848874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45F83FE260F259200848874 /* Build configuration list for PBXNativeTarget "Health IBM CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45F83FF260F259200848874 /* Debug */,
+				F45F8400260F259200848874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F45F8401260F259200848874 /* Build configuration list for PBXNativeTarget "Health IBM CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F45F8402260F259200848874 /* Debug */,
+				F45F8403260F259200848874 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F45F83C9260F259000848874 /* Project object */;
+}
