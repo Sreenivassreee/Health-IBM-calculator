@@ -101,8 +101,8 @@
 			children = (
 				F45F83D4260F259000848874 /* AppDelegate.swift */,
 				F45F83D6260F259000848874 /* SceneDelegate.swift */,
-				F45F83D8260F259000848874 /* ViewController.swift */,
-				F45F83DA260F259000848874 /* Main.storyboard */,
+				F45F8407260F268F00848874 /* View */,
+				F45F8408260F269F00848874 /* Controller */,
 				F45F83DD260F259200848874 /* Assets.xcassets */,
 				F45F83DF260F259200848874 /* LaunchScreen.storyboard */,
 				F45F83E2260F259200848874 /* Info.plist */,
@@ -126,6 +126,22 @@
 				F45F83F8260F259200848874 /* Info.plist */,
 			);
 			path = "Health IBM CalculatorUITests";
+			sourceTree = "<group>";
+		};
+		F45F8407260F268F00848874 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F45F83DA260F259000848874 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F45F8408260F269F00848874 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F45F83D8260F259000848874 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
