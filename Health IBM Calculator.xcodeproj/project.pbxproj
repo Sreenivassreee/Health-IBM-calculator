@@ -15,6 +15,7 @@
 		F45F83E1260F259200848874 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F45F83DF260F259200848874 /* LaunchScreen.storyboard */; };
 		F45F83EC260F259200848874 /* Health_IBM_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F83EB260F259200848874 /* Health_IBM_CalculatorTests.swift */; };
 		F45F83F7260F259200848874 /* Health_IBM_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F83F6260F259200848874 /* Health_IBM_CalculatorUITests.swift */; };
+		F494CDA2260F6D6900AC50F3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F494CDA1260F6D6900AC50F3 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F45F83F2260F259200848874 /* Health IBM CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Health IBM CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F45F83F6260F259200848874 /* Health_IBM_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Health_IBM_CalculatorUITests.swift; sourceTree = "<group>"; };
 		F45F83F8260F259200848874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F494CDA1260F6D6900AC50F3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 		F45F8408260F269F00848874 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F494CDA1260F6D6900AC50F3 /* SecondViewController.swift */,
 				F45F83D8260F259000848874 /* ViewController.swift */,
 			);
 			path = Controller;
@@ -274,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F494CDA2260F6D6900AC50F3 /* SecondViewController.swift in Sources */,
 				F45F83D9260F259000848874 /* ViewController.swift in Sources */,
 				F45F83D5260F259000848874 /* AppDelegate.swift in Sources */,
 				F45F83D7260F259000848874 /* SceneDelegate.swift in Sources */,
