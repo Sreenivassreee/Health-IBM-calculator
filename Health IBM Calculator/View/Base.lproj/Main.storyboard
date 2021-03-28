@@ -134,24 +134,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BMI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gb4-Z5-3fh">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="724"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="result_background" highlightedImage="result_background" translatesAutoresizingMaskIntoConstraints="NO" id="Ugm-7x-byI">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalCentering" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="9EA-uK-JmQ">
+                                <rect key="frame" x="83.666666666666686" y="286.66666666666669" width="208" height="185"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Results" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r0m-tW-o3J">
+                                        <rect key="frame" x="0.0" y="0.0" width="208" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="guf-Dz-ykp"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="19.5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RtU-YU-3wf">
+                                        <rect key="frame" x="0.0" y="60" width="208" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="70" id="X8C-VI-w1s"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="73"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EAT SOME MORE SNACKS!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l66-XY-4zU">
+                                        <rect key="frame" x="0.0" y="145" width="208" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="56K-zR-qm8"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xbc-jU-UaM"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="gb4-Z5-3fh" firstAttribute="leading" secondItem="xbc-jU-UaM" secondAttribute="leading" id="XjJ-2N-K9n"/>
-                            <constraint firstItem="gb4-Z5-3fh" firstAttribute="top" secondItem="xbc-jU-UaM" secondAttribute="top" id="YmA-Vr-YbO"/>
-                            <constraint firstItem="xbc-jU-UaM" firstAttribute="bottom" secondItem="gb4-Z5-3fh" secondAttribute="bottom" id="tBa-Ko-Kxe"/>
-                            <constraint firstItem="xbc-jU-UaM" firstAttribute="trailing" secondItem="gb4-Z5-3fh" secondAttribute="trailing" id="xAL-Nl-idT"/>
+                            <constraint firstAttribute="bottom" secondItem="Ugm-7x-byI" secondAttribute="bottom" id="7Zy-Dj-9B0"/>
+                            <constraint firstItem="9EA-uK-JmQ" firstAttribute="centerY" secondItem="19z-M4-rzx" secondAttribute="centerY" id="EVd-Lu-Gjj"/>
+                            <constraint firstItem="9EA-uK-JmQ" firstAttribute="centerX" secondItem="19z-M4-rzx" secondAttribute="centerX" id="SEA-Ga-IN1"/>
+                            <constraint firstItem="Ugm-7x-byI" firstAttribute="top" secondItem="xbc-jU-UaM" secondAttribute="top" id="cI1-lX-pdQ"/>
+                            <constraint firstItem="Ugm-7x-byI" firstAttribute="leading" secondItem="xbc-jU-UaM" secondAttribute="leading" id="kJO-4e-vWA"/>
+                            <constraint firstItem="Ugm-7x-byI" firstAttribute="trailing" secondItem="xbc-jU-UaM" secondAttribute="trailing" id="wro-0U-BKS"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="BMI" destination="gb4-Z5-3fh" id="1e8-2h-K4f"/>
+                        <outlet property="BMI" destination="RtU-YU-3wf" id="PIG-zS-rIS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VOY-OE-HUX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -161,6 +193,7 @@
     </scenes>
     <resources>
         <image name="calculate_background" width="375" height="812"/>
+        <image name="result_background" width="375" height="812"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

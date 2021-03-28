@@ -31,24 +31,19 @@ class ViewController: UIViewController {
     
     @IBAction func Height(_ sender: UISlider) {
         height=Double(sender.value)*10
-        
         HeightLable.text = String(format: "%.1f" , height) + " M"
     }
     
     @IBAction func Weight(_ sender: UISlider) {
         weight=Double(sender.value)*100
         WeightLable.text = String(format: "%.1f" , weight) + " KG"
-        
-        
     }
     @IBAction func Calculate(_ sender: UIButton) {
         print(height)
         print(weight)
         bmi = weight/(height*height)
         print(bmi)
-        
         self.performSegue(withIdentifier: "secondView", sender: self)
-        
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "secondView" {
