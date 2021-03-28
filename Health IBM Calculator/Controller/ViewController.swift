@@ -9,6 +9,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var brain = Brain()
+    
     @IBOutlet weak var WeightSlider: UISlider!
     @IBOutlet weak var HeightSlider: UISlider!
     
@@ -26,11 +28,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         WeightLable.text="0 KG"
         HeightLable.text="0 M"
-        
+        height=0.0
+        weight=0.0
     }
     
     @IBAction func Height(_ sender: UISlider) {
-        height=Double(sender.value)*10
+        height=Double(sender.value)
         HeightLable.text = String(format: "%.1f" , height) + " M"
     }
     
@@ -41,16 +44,19 @@ class ViewController: UIViewController {
     @IBAction func Calculate(_ sender: UIButton) {
         print(height)
         print(weight)
-        bmi = weight/(height*height)
-        print(bmi)
+        
+        brain.calculateBMI(height: HeightSlider.value, weight: WeightSlider.value)
+        
         self.performSegue(withIdentifier: "secondView", sender: self)
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "secondView" {
             let destinationVC = segue.destination as! SecondViewController
-            destinationVC.bmi=String(format: "%.2f", bmi)
+            destinationVC.bmi=brain.getBMI()
         }
     }
     
+  
+
 }
 

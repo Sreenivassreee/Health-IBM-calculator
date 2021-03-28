@@ -47,7 +47,7 @@
                                             <constraint firstAttribute="height" constant="21" id="Z3c-p9-S0a"/>
                                         </constraints>
                                     </stackView>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="aRr-xz-5xe">
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="2" translatesAutoresizingMaskIntoConstraints="NO" id="aRr-xz-5xe">
                                         <rect key="frame" x="-2" y="512" width="349" height="61"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="3ug-7M-Ta4"/>
@@ -76,7 +76,7 @@
                                             <constraint firstAttribute="height" constant="21" id="NfE-ED-LVm"/>
                                         </constraints>
                                     </stackView>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Xza-w8-TvI">
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Xza-w8-TvI">
                                         <rect key="frame" x="-2" y="613" width="349" height="61"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="wQS-0W-t6g"/>
@@ -170,13 +170,30 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zS-LZ-qxh">
+                                <rect key="frame" x="20" y="673" width="335" height="51"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="51" id="ryZ-Np-u4f"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemRedColor"/>
+                                <state key="normal" title="Recalculate"/>
+                                <connections>
+                                    <action selector="recalculate:" destination="qxU-Us-07p" eventType="touchUpInside" id="62i-yN-xpN"/>
+                                    <action selector="recalculatePressed:" destination="XDv-qW-WAE" eventType="touchUpInside" id="Imj-5o-pb5"/>
+                                    <action selector="recalculatePressed:" destination="qxU-Us-07p" eventType="touchUpInside" id="JNe-Le-aqD"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xbc-jU-UaM"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="Ugm-7x-byI" secondAttribute="bottom" id="7Zy-Dj-9B0"/>
                             <constraint firstItem="9EA-uK-JmQ" firstAttribute="centerY" secondItem="19z-M4-rzx" secondAttribute="centerY" id="EVd-Lu-Gjj"/>
+                            <constraint firstItem="xbc-jU-UaM" firstAttribute="bottom" secondItem="8zS-LZ-qxh" secondAttribute="bottom" id="Rj2-qY-jJA"/>
                             <constraint firstItem="9EA-uK-JmQ" firstAttribute="centerX" secondItem="19z-M4-rzx" secondAttribute="centerX" id="SEA-Ga-IN1"/>
+                            <constraint firstItem="xbc-jU-UaM" firstAttribute="trailing" secondItem="8zS-LZ-qxh" secondAttribute="trailing" constant="20" id="Uuh-YV-Xbd"/>
+                            <constraint firstItem="8zS-LZ-qxh" firstAttribute="leading" secondItem="xbc-jU-UaM" secondAttribute="leading" constant="20" id="XO4-64-VRy"/>
                             <constraint firstItem="Ugm-7x-byI" firstAttribute="top" secondItem="xbc-jU-UaM" secondAttribute="top" id="cI1-lX-pdQ"/>
                             <constraint firstItem="Ugm-7x-byI" firstAttribute="leading" secondItem="xbc-jU-UaM" secondAttribute="leading" id="kJO-4e-vWA"/>
                             <constraint firstItem="Ugm-7x-byI" firstAttribute="trailing" secondItem="xbc-jU-UaM" secondAttribute="trailing" id="wro-0U-BKS"/>
@@ -187,6 +204,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VOY-OE-HUX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="qxU-Us-07p" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="838" y="81"/>
         </scene>
@@ -196,6 +214,9 @@
         <image name="result_background" width="375" height="812"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
